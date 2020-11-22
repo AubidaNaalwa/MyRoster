@@ -1,0 +1,57 @@
+
+body {
+    background-image: url('b4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    
+}
+#container{
+    display:grid;
+    grid-template-rows: auto auto;
+    height: 100%;
+    grid-gap: 2rem;
+}
+
+#headContainer{
+
+    display:grid;
+    grid-template-columns:10fr 2fr;
+    height: 100%;
+    align-items: center;
+    font-size: xxx-large;
+
+}
+
+
+#buttonSearch{
+    background-color: none;
+   display:grid;
+   justify-items: center;
+    width:100%;
+ 
+}
+
+select{
+    width: 100%;
+    height: 100%;
+}
+
+#teammateContainer{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    grid-gap: 2rem;
+    height: 100%;
+    align-items: center;
+
+}
+
+.player{
+    display:grid;
+    width:100%;
+    height: 100%;
+    justify-items: center;
+    grid-template-columns:auto;
+    background-color: rgb(168, 123, 38);
+}
+
